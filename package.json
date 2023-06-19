@@ -13,6 +13,6 @@
   "scripts": {
     "start": "node index.js",
     "test": "./node_modules/.bin/mocha ./test/test.js",
-    "build": "cp -r . ./dist"
+    "build": "mkdir -p dist && cp -r src/. dist/"
   }
 }
